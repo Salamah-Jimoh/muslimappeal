@@ -1,15 +1,5 @@
 
 (function() {
-//===== Preloader
-
-	window.onload = function () {
-		window.setTimeout(fadeout, 500);
-	}
-
-	function fadeout() {
-		document.querySelector('.preloader').style.opacity = '0';
-		document.querySelector('.preloader').style.display = 'none';
-	}
 
 
     /*=====================================
@@ -22,10 +12,10 @@
 
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.src = 'assets/img/logo/logo-2.svg'
+            logo.src = 'assets/img/loggo.jpg'
         } else {
             header_navbar.classList.remove("sticky");
-            logo.src = 'assets/img/logo/logo.svg'
+            logo.src = 'assets/img/loggo.jpg'
         }
 
 
