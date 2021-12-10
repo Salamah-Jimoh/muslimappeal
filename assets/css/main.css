@@ -858,6 +858,33 @@ p {
   color: #4E6EF1;
 }
 
+/*=================
+contact css
+==================*/
+
+label{
+font-size:20px;
+display:block;
+font-weight: 300;
+
+}
+.hidden{
+  display:none;
+}
+.form input{
+  margin:10px;
+  padding:10px;
+  font-size:15px;
+  width:85%;
+  border-radius: 15px;
+}
+::placeholder{
+  font-size:17px;
+  color:black;
+  padding:20px;
+}
+
+/*Testimonial Css*/
 /*===========================
     13.footer css 
 ===========================*/
