@@ -797,7 +797,15 @@ p {
   border-color: #505478;
   background: none;
 }
-
+.pricing-section .single-pricing .appeal-border{
+  border:4px solid #26294D;
+  margin:5px;
+}
+/*volunteer css*/
+.volunteer a{
+  color:white;
+  font-size:25px;
+}
 /*===========================
     11.Blog css 
 ===========================*/
